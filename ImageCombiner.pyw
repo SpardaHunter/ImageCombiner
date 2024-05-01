@@ -5,7 +5,7 @@ from tkinter import filedialog, messagebox
 
 def select_blank_image():
     global blank_image_path
-    blank_image_path = filedialog.askopenfilename(title="Select Image", filetypes=[("Image files", "*.png;*.jpg;*.jpeg;*.gif;*.bmp")])
+    blank_image_path = filedialog.askopenfilename(title="Select Image")
     blank_image_path_entry.delete(0, tk.END)
     blank_image_path_entry.insert(0, blank_image_path)
 
