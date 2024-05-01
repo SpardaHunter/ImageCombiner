@@ -11,3 +11,7 @@ Select the image you want to be added in bulk
 Select the images folder
 Select the output folder
 Process the images
+
+note: Pillow may need to be updated
+ pip install --upgrade Pillow
+
