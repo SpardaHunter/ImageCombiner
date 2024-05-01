@@ -13,5 +13,6 @@ Select the output folder
 Process the images
 
 note: Pillow may need to be updated
- pip install --upgrade Pillow
+
+pip install --upgrade Pillow
 
